@@ -1,0 +1,21 @@
+/* COULEURS */
+/*
+bleu clair = #60a3bc
+bleu foncé = #3c6382
+*/
+
+/* GENERAL */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#headImage {
+    background-image: url(../image/laptop-2838917_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+    
+}
