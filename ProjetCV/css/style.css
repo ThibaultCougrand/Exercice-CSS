@@ -16,11 +16,11 @@ h2{
     text-transform: uppercase;
     color: #fff;
     text-shadow: 1px 1px 1px black;
-    margin-top: 4vh;
+    margin: 9vh 0 0 0;
 }
 .whiteDivider{
     background: #fff;
-    margin: 20px auto 10px auto;
+    margin: 10px auto 10px auto;
     width: 100px;
     height: 2px;
 }
@@ -55,30 +55,57 @@ h2{
 
 /* COMPETENCES */
 
-.comp {
-    border-top: 1px solid #3c6382;
-}
-#lib {
-    padding-top: 4vh !important;
-}
-#front, #lib, #back {
-    padding-top: 17vh;
-}
-.comp h4{
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    margin-top: 3vh;
-    
-}
-.progress-bar{
-    margin: 3vh 0 0 8vw;
-}
 #headImageG {
+    border-top: 1px solid #3c6382;
     background-image: url(../image/laptop-2838917_1920.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 10px 10px 0 10px;
     box-shadow: 0 0 25px 3px black inset;
+}
+#front, #lib, #back {
+    padding-top: 4vh;
+}
+.comp h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 3vh;   
+}
+.progress-bar{
+    margin: 3vh 0 0 8vw;
+}
+#headImageG2 {
+    background-image: url(../image/laptop-2838917_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 10px 10px 0 10px;
+    box-shadow: 0 0 25px 3px black inset;
+    padding-top: 20vh;
+}
+
+/* FORMATIONS */
+
+#form1, #form2, #form3 {
+    background-color: #3c6382;
+}
+#form1E, #form2E, #form3E {
+    background-color: #60a3bc;
+    width: 50%;
+    height: 25%;
+    margin: 30% 25%;
+    border-radius: 40px;
+    transition: 1s;
+    text-align: center;
+    
+}
+
+#form1E:hover, #form2E:hover, #form3E:hover {
+    background-color: #60a3bc;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
 }

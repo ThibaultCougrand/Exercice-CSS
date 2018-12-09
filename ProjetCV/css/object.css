@@ -1,7 +1,7 @@
 /* NAVBAR */
 
 nav {
-    height: 70px;
+    height: 58px;
     background-color: #3c6382;
     position: sticky;
     top: 0;
@@ -17,10 +17,10 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
-    margin: 25px 0;
+    margin: 18px 0;
 }
 nav ul li a {
-    padding: 23px;
+    padding: 20px;
     color: #fff;
     text-decoration: none;
     box-shadow: 0 0 10px #60a3bc inset;
