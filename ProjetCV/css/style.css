@@ -9,6 +9,20 @@ bleu foncé = #3c6382
 body {
     padding: 0;
     margin: 0;
+    background-color: #60a3bc;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 4vh;
+}
+.whiteDivider{
+    background: #fff;
+    margin: 20px auto 10px auto;
+    width: 100px;
+    height: 2px;
 }
 
 #headImage {
@@ -16,6 +30,55 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 90vh;
+    height: 58vh;
+    margin: 10px 10px 0 10px;
+    border-radius: 60px 60px 0 0;
+    box-shadow: 0 0 25px 3px black inset;
+}
+
+/* ACCUEIL */
+
+#imgTitle img{
+    transform: rotate(90deg);
+    width: 10em;
+    height: 10em;
+    border: .8vh solid rgba(255,255,255,0.7);
+    box-shadow: 0 0 7px black;
+    border-radius: 100%;
+    margin: 4vh 0 0 10vw;
+}
+#title{
+    margin: 2vh 0 2vh 8vw;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* COMPETENCES */
+
+.comp {
+    border-top: 1px solid #3c6382;
+}
+#lib {
+    padding-top: 4vh !important;
+}
+#front, #lib, #back {
+    padding-top: 17vh;
+}
+.comp h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 3vh;
     
+}
+.progress-bar{
+    margin: 3vh 0 0 8vw;
+}
+#headImageG {
+    background-image: url(../image/laptop-2838917_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 10px 10px 0 10px;
+    box-shadow: 0 0 25px 3px black inset;
 }

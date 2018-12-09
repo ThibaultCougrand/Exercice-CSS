@@ -1,0 +1,41 @@
+#gridContainer {
+    height: 400vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: .1fr 1fr 1fr;
+    grid-template-rows: .32fr .50fr .43fr .75fr 1fr 1fr;
+    grid-template-areas: "imgTitle title title"
+                         "comp1 comp2 comp3"
+                         "imgh imgh imgh"
+                         "form form form"
+                         "form form form"
+                         "exp exp exp";
+}
+
+#imgTitle {
+    grid-area: imgTitle;
+    width: 33vw;
+}
+#title {
+    grid-area: title;
+}
+#comp1 {
+    grid-area: comp1;
+}
+#comp2 {
+    grid-area: comp2;
+}
+#comp3 {
+    grid-area: comp3;
+}
+#headImageG {
+    grid-area: imgh;   
+}
+#formations {
+    grid-area: form;
+    background-color: #777;
+}
+#experiences {
+    grid-area: exp;
+    background-color: #555;
+}
